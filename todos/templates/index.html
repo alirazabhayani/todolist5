@@ -1,0 +1,12 @@
+{% include 'partials/header.html' %}
+</br>
+Here is our ToDo List:
+</br>
+</br>
+{% for todo in todos %}
+    {{ todo }}
+    </br>
+    </br>
+{% endfor %}
+
+{% include 'partials/footer.html' %}
